@@ -1,0 +1,48 @@
+.profhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.headimg img{
+    width: 250px;
+}
+.headinput22{
+    display:flex;
+    flex-direction: row;
+    height: 30px;
+    box-shadow: 1px 1px 5px grey;
+    padding: 10px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.search{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}
+.search i{
+    font-size: 1.5rem;
+    color: hsl(0, 2%, 78%);
+    padding: 5px;
+}
+.search span{
+    font-size: 1.5rem;
+    padding: 0%;
+    color: hsl(0, 2%, 78%);
+}
+.search input{
+    width: 700px;
+    border: none;
+    box-shadow: 1px 0px 5px 0px hsl(0, 10%, 90%);
+  
+}
+.icns3{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

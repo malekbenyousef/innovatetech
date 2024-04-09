@@ -1,0 +1,88 @@
+/* Card.css */
+.card {
+    width: 457px;  
+    background-color: hsl(0, 0%, 100%);  
+    padding: 20px;
+    border-radius: 20px;  
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.05);  
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 30px;
+}
+.card-image {
+    width: 100%; 
+    height: auto;  
+    margin-bottom: 20px;  
+    border-radius: 10px; 
+}
+  
+.tag {
+    background-color: hsl(259, 100%, 59%);  
+    color: hsl(0, 0%, 100%);  
+    font-weight: 400; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: fit-content;
+  }
+  .tag:hover{
+    background-color: hsl(259, 100%, 69%);
+  }
+  
+  .card-title {
+    color: hsl(0, 0%, 13%);  
+    font-weight: 500;  
+    font-size: 23.873px;  
+    margin-bottom: 20px; 
+  }
+  
+  .developer-info {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 20px;  
+  }
+  
+  .developer-pic {
+    width: 40px;  
+    height: 40px;
+    border-radius: 50%;  
+    margin-right: 15px; 
+    object-fit: cover;
+  }
+  
+  .developer-name {
+    color: hsl(0, 0%, 13%);   
+    font-weight: 500;  
+    font-size: 17.052px; 
+  }
+  
+  .developer-role {
+    color: hsl(0, 0%, 40%);
+    font-size: 13.642px;  
+  }
+  
+  .progress-bar {
+    width: 100%;  
+    background-color: hsl(0, 0%, 85%);  
+    height: 10px;  
+    border-radius: 5px;  
+    position: relative;  
+    margin-bottom: 20px; 
+  }
+  .progress {
+    background-color: hsl(259, 100%, 59%);  
+    height: 100%;
+    border-radius: 5px;  
+  }
+  
+  .like-btn {
+    position: absolute;  
+    top: 20px;  
+    right: 20px;  
+    background-color:transparent;
+    border: none;  
+    cursor: pointer;
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%); 
+}

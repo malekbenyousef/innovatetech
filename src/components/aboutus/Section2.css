@@ -1,0 +1,57 @@
+.frame-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: hsl(160, 86%, 97%);
+  }
+  
+  .text-section {
+    flex: 1;
+  }
+  
+  .mission, .vision {
+    margin-bottom: 30px;
+  }
+  
+  .mission h2, .vision h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    color: hsl(161, 69%, 33%);
+    margin-bottom: 20px;
+  }
+  
+  .mission p, .vision p {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: hsl(0, 0%, 47%);
+    line-height: 1.7;
+  }
+  
+  .image-section {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .circle-overlay {
+    background: linear-gradient(135deg, rgba(86, 217, 179, 1) 0%, rgba(164, 231, 223, 0) 100%);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle-image {
+    background-image: url('../../assets/frameimg.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+  

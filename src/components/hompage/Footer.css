@@ -1,0 +1,114 @@
+/* Footer.css */
+.footer {
+    background-color: hsla(161, 83%, 96%, 1);
+    
+    padding: 60px 80px;
+    color: hsl(0, 0%, 38%);
+    border:1px solid rgb(217, 215, 215);
+   
+  }
+
+  
+  .footer-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+
+  .footer-logo img {
+    max-width: 160px; 
+  }
+  
+  .footer-columns {
+    display: flex;
+    
+  }
+  
+  .footer-column {
+    margin-right: 80px;  
+  }
+  .footer-column:first-child{
+    padding: 0 70px;
+    
+  }
+
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-column h4 {
+    color: hsl(233, 100%, 9%);
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29.296875px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-social {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-social a{
+    background-color:transparent;
+   text-decoration: none;
+  }
+  
+  .social-link i {
+    text-decoration: none;
+    color: hsl(220, 26%, 14%);
+    margin: 0 15px;
+    font-size: 19px;
+    transition: all 0.3s ease;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px grey;
+  }
+  
+  
+  .social-link:hover i{
+    color: hsl(218, 17%, 35%); 
+    background: white;
+    border-radius: 40px;
+    box-shadow: 4px 4px 5px grey;
+  }
+  
+  .footer-copy p {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-style: italic;
+   
+  }
+  
+  
+hr{
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+/* Header.css */
+.header-dash {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    background-color: hsl(0, 0%, 100%);  
+    padding:10px 20px; 
+    box-sizing: border-box;
+    margin-top:10px ;
+  }
+  
+  .header-logo-dash {
+    width: 140px;  
+    height: auto; 
+    margin-right: 75px; 
+  }
+  
+  .header-navigation-dash {
+     
+    display: flex;
+    align-items: center;
+  }
+  
+   
+  

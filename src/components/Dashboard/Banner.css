@@ -1,0 +1,54 @@
+/* Banner.css */
+.banner {
+    
+    background-color: hsl(175, 52%, 45%); 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px;  
+    border-radius: 10px;  
+    
+    overflow: hidden;
+    
+    
+  }
+  
+ 
+  
+  .banner-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    font-size: 12px; 
+    text-transform: uppercase;  
+    color: hsl(0, 0%, 100%);  
+    margin-bottom: 8px; 
+  }
+  
+  .banner-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;  
+    font-size: 24px;  
+    line-height: 29px;  
+    color: hsl(0, 0%, 100%);  
+    margin-bottom: 16px; 
+  }
+  
+  .banner-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;  
+    background: hsl(0, 0%, 13%);  
+    color: hsl(0, 0%, 100%);  
+    padding: 8px 12px;  
+    border-radius: 18px; 
+    display: flex;
+    align-items: center;  
+    cursor: pointer; 
+    border: none;  
+  }
+  
+  .banner-button i{
+    width: 20px; 
+    margin-left: 10px;
+    color: hsl(0, 0%, 100%); 
+  }
+ 

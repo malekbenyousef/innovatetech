@@ -1,0 +1,94 @@
+/* EditProfile.css */
+.edit-profile {
+    background-color: hsl(300, 8%, 97%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.1);
+    display: flex;
+  }
+  
+  .edit-profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+    
+  }
+  .container4{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px 30px;
+  }
+  
+  .edit-profile-header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: hsl(0, 1%, 77%);
+  }
+  
+  .edit-profile-camera {
+    background: none;
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-size: 2rem;
+    color: rgb(152, 154, 156);
+  }
+
+  .edit-profile-body .profile-section {
+    margin-bottom: 20px;
+  }
+  .edit-profile-body{
+    display: flex;
+  }
+  .edit-profile-body .profile-section h3 {
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    margin-bottom: 10px;
+  }
+  
+  .edit-profile-body input {
+    width: 300px;
+    border: 1px solid hsl(0, 0%, 90%);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-save {
+    background-color: hsl(165, 66%, 44%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 21.74px; 
+    margin-bottom: 20px;  
+  }
+  
+  .menu-item {
+    background: hsl(167, 50%, 95%);  
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    color: hsl(198, 82%, 17%);  
+    font-size: 14.5px;  
+    font-weight: bold;  
+    border-radius: 5px; 
+    width: 200px;
+  }
+  
+  .menu-item.active {
+    background: hsl(0, 0%, 100%); 
+  }
+  
